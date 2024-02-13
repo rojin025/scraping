@@ -2,7 +2,14 @@
   "devDependencies": {
     "@types/node": "^20.11.17",
     "nodemon": "^3.0.3",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom"
+    ]
   },
   "name": "scraping",
   "description": "Web Scraping - Side Project",
@@ -40,13 +47,13 @@
     "normalize-path": "^3.0.0",
     "picomatch": "^2.3.1",
     "pstree.remy": "^1.1.8",
+    "puppeteer": "^22.0.0",
     "readdirp": "^3.6.0",
     "semver": "^7.6.0",
     "simple-update-notifier": "^2.0.0",
     "supports-color": "^5.5.0",
     "to-regex-range": "^5.0.1",
     "touch": "^3.1.0",
-    "typescript": "^5.3.3",
     "undefsafe": "^2.0.5",
     "undici-types": "^5.26.5",
     "v8-compile-cache-lib": "^3.0.1",
