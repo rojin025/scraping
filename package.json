@@ -3,13 +3,16 @@
     "@types/node": "^20.11.17",
     "nodemon": "^3.0.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "module": "es6"
   },
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
+    "module": "es6",
     "lib": [
       "dom"
-    ]
+    ],
+    "strict": true
   },
   "name": "scraping",
   "description": "Web Scraping - Side Project",

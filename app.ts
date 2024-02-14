@@ -1,5 +1,4 @@
-const puppeteer = require("puppeteer");
-import { Browser } from "puppeteer";
+import puppeteer, { Browser } from "puppeteer";
 
 const url = "https://books.toscrape.com";
 
